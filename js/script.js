@@ -1,5 +1,4 @@
 let input = document.querySelector("#input");
-let url = "https://api.github.com/users/" + input.value;
 let tbody = document.querySelector("#tbody");
 let getDataBtn = document.querySelector('#getDataBtn');
 
@@ -14,6 +13,7 @@ let lekeres = {
 /* Lekéri az adatokat fetch segítségével a megadott 'url' címről a 'lekeres' változóban tárolt tulajdonságok alapján. 
 A kapott adatokat JSON formátumba konvertálja majd azokat kiírja a konzolra. */
 function adatlekeres() {
+    let url = "https://api.github.com/users/" + input.value;
     fetch(url, lekeres).then(response => response.json())
         .then(
             data => console.log(data)
