@@ -11,7 +11,7 @@
 <body>
     <div class="row">
     <h1>Github profil lekérő</h1>
-    <h6>Ezzel lekérheted a kívánt GitHub profil publikus információit, melyet a <span class="vastag">GithubAPI</span> szolgáltat.</h6>
+    <h6>Ezzel lekérheted a kívánt GitHub profil publikus információit, melyet a <a class="api" href="https://api.github.com/" target=_blank>GithubAPI</a> szolgáltat.</h6>
 </div>
 
 <div class="row">
@@ -21,6 +21,27 @@
         <label>Add meg a GitHub felhasználó nevét!<br>(Kis -és nagybetűkre figyelj!)</label>
     </div>
 </div>
+
+<div class="row">
+    <table class="table maxhossz kihagyas userTable">
+        <thead>
+            <tr>
+                <td class="cella">Tulajdonság</td>
+                <td class="cella">Érték</td>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+            <!-- Teszt sor, a kész algoritmusnál ez majd nem fog látszani -->
+            <tr>
+                <td class="key">Tuajdonság</td>
+                <td class="value">Érték</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
 </body>
 <script src="./js/script.js"></script>
 </html>

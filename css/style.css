@@ -2,6 +2,34 @@
     width: 18%;
 }
 
-.vastag {
+.api {
     font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.vanished {
+    display: none;
+}
+
+.maxhossz {
+    width: 30%;
+}
+
+.kihagyas {
+    margin-left: 1%;
+}
+
+.cella {
+    border-color: black;
+}
+
+.key {
+    font-weight: 600;
+    color: black;
+}
+
+.value {
+    font-weight: 400;
+    color: black;
 }
